@@ -38,8 +38,8 @@ class PeopleId extends Component {
 
 
                             <h6 class="card-subtitle mb-2 text-muted">{this.state.people.name}</h6>
-                            <p class="card-text">Hair Color: {this.state.people.hair_color}</p>
-                            <p class="card-text">Eye Color: {this.state.people.eye_color}</p>
+                            <p class="card-text">Hair Color - {this.state.people.hair_color}</p>
+                            <p class="card-text">Eye Color - {this.state.people.eye_color}</p>
                             <Link to={`/People/${this.state.people.id}`}>
                                 <Link to="/People">
                                     <button class="btn btn-info" onClick={new People}>Back to People</button></Link>
