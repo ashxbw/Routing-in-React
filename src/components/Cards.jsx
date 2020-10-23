@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 const Cards = props => {
-    return (<React.Fragment><center><div class="card border-info center mt-5 mb-3 w-50">
+    return (<React.Fragment><center><div class="card border-info center shadow-sm mt-5 mb-3 w-50">
         <div class="card-body text-center">
 
             <h5 class="card-title">{props.film.title}</h5>
