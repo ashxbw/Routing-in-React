@@ -18,14 +18,14 @@ class App extends Component {
 
                     <div class="d-flex justify-content-center" id="container">
                         <div class="mt-5 mb-5 mr-3">
-                            <Link to="/"><button class="align-items-center btn btn-outline-info">Go Home</button></Link>
+                            <Link to="/"><button class="align-items-center btn btn-outline-info shadow-sm">Go Home</button></Link>
                         </div>
 
                         <div class="mt-5 mb-5 mr-3">
-                            <Link to="/Films"><button class="btn btn-outline-info">View Films</button></Link>
+                            <Link to="/Films"><button class="btn btn-outline-info shadow-sm">View Films</button></Link>
                         </div>
 
-                        <div class="mt-5 mb-5"><Link to="/People"><button class="btn btn-outline-info">View People</button></Link></div>
+                        <div class="mt-5 mb-5"><Link to="/People"><button class="btn btn-outline-info shadow-sm">View People</button></Link></div>
                     </div>
 
 
